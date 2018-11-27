@@ -1,4 +1,4 @@
-package com.learning.springboot.sample.eureka.server;
+package com.learning.sample.spring.cloud.eureka.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
