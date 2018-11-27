@@ -15,10 +15,9 @@ import org.springframework.context.annotation.Bean;
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class SampleApplication {
+public class SampleServiceProviderApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(SampleApplication.class, args);
-//        System.out.println( "Hello World!" );
+		SpringApplication.run(SampleServiceProviderApplication.class, args);
 	}
 
 	@Bean
