@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.learning.sample.spring.cloud.service.provider.object.Greeting;
-import com.learning.sample.spring.cloud.service.provider.service.GreetingService;
 
 @RestController
-public class GreetingController implements GreetingService{
+public class GreetingController{
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(GreetingController.class);
 	
